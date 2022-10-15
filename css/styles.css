@@ -1,6 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--brand-color);
+}
+
+:root {
+    --brand-color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .logo {
@@ -21,24 +33,34 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--brand-color);
 }
 
 .link-button {
+    font-family: inherit;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    line-height: 0.87;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
 
 .link-but {
+    font-family: inherit;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+.link:hover,
+.link-but:hover,
+.contacts:hover,
+.contacts-f:hover {
+    color: #2196F3;
 }
 
 .contacts {
@@ -58,13 +80,6 @@ body {
     color: #757575;
 }
 
-.link:hover,
-.link-but:hover,
-.contacts:hover,
-.contacts-f:hover {
-    color: #2196F3;
-}
-
 .map {
     font-weight: 400;
     font-size: 14px;
@@ -78,11 +93,10 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--brand-color);
 }
 
 .features-p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -102,7 +116,7 @@ body {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--brand-color);
 }
 
 .team {
@@ -110,11 +124,10 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--brand-color);
 }
 
 .team-p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -126,11 +139,10 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--brand-color);
 }
 
 .portfolio-p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
